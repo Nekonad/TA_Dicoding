@@ -340,7 +340,7 @@ body::-webkit-scrollbar-thumb {
   }
   .footer-logo img {
     object-fit: cover;
-    width: 70px;
+    width: 20%;
   }
 }
 
