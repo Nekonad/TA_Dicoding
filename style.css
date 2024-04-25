@@ -221,22 +221,23 @@ body::-webkit-scrollbar-thumb {
   padding-top: 200px;
 }
 
-.wrap-left {
+.wrap-left, wrap-right {
   display: flex;
-  background-image: url(img/Menu.jpg);
+  cursor: pointer;
   background-size: cover;
-  background-position: 80% 75%;
   padding: 60px 200px;
   border-radius: 30px;
 }
 
+.wrap-left, {
+  background-image: url(img/Menu.jpg);
+  background-position: 80% 75%;
+}
+
 .wrap-right {
-  display: flex;
   background-image: url(img/lokasi.jpg);
-  background-size: cover;
   background-position: 50% 40%;
-  padding: 60px 200px;
-  border-radius: 30px;
+
 }
 
 .subheadline-wrap {
